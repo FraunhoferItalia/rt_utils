@@ -1,0 +1,10 @@
+#!/bin/bash
+# This script is licensed under CC0 1.0 Universal (CC0 1.0).
+# Copyright (c) 2020 Open Source Automation Development Lab (OSADL) eG
+# Author Carsten Emde
+
+i=0
+while cpuidle $i
+do
+  i=`expr $i + 1`
+done
